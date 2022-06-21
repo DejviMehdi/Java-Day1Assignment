@@ -1,6 +1,6 @@
 package ENTITIES;
 
-public class User {
+public class User extends Base{
     private long id;
     private String name;
     private String surname;
@@ -18,7 +18,7 @@ public class User {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
@@ -26,7 +26,7 @@ public class User {
     }
 
     public String getSurname() {
-        return this.surname;
+        return surname;
     }
 
     public void setSurname(String surname) {
@@ -34,7 +34,7 @@ public class User {
     }
 
     public String getUsername() {
-        return this.username;
+        return username;
     }
 
     public void setUsername(String username) {
@@ -42,7 +42,7 @@ public class User {
     }
 
     public SPID getSpid() {
-        return this.spid;
+        return spid;
     }
 
     public void setSpid(SPID spid) {

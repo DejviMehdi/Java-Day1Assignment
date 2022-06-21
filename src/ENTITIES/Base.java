@@ -17,7 +17,7 @@ public class Base {
     }
 
     public long getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(long id) {
@@ -25,7 +25,7 @@ public class Base {
     }
 
     public Date getCreatedAt() {
-        return this.createdAt;
+        return createdAt;
     }
 
     public void setCreatedAt(Date createdAt) {
@@ -33,7 +33,7 @@ public class Base {
     }
 
     public Date getCreatedBy(){
-        return this.createdBy;
+        return createdBy;
     }
 
     public void setCreatedBy(){
