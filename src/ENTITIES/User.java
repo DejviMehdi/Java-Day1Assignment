@@ -1,56 +1,54 @@
 package ENTITIES;
 
-public class User extends Base{
+public class User extends Base {
+
     private long id;
     private String name;
     private String surname;
     private String username;
-    private SPID spid;
 
-    public User (){
-
+    public User() {
     }
-    public User(long id, String name, String surname, String username){
-        this.id = id;
+
+    public User(long id, String name, String surname, String username) {
+        super(id, null, null);
         this.name = name;
         this.surname = surname;
         this.username = username;
+    }
+
+
+    public long getId() {
+        return id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getSurname() {
         return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
     }
 
     public String getUsername() {
         return username;
     }
 
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
     public void setUsername(String username) {
         this.username = username;
     }
 
-    public SPID getSpid() {
-        return spid;
-    }
-
-    public void setSpid(SPID spid) {
-        this.spid = spid;
-    }
-
 }
-
-
-
-
